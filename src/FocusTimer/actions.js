@@ -29,7 +29,6 @@ export function toggleMusic() {
     state.isMute = document.documentElement.classList.toggle('music-on');
 
     if(state.isMute) {
-        console.log('verdade')
         sounds.bgAudio.play();
         return;
     }
